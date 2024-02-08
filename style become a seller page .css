@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: sticky;
+    overflow: hidden;
+}
+.text h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight:700 ;
+    color: white;
+}
+.text{
+    text-align: center;
+    top: 25%;
+    left: 25%;
+    height: 30vh;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    /* font-weight:700 ; */
+    /* color: white; */
+}
+.text button{
+    width: 230px;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight:700 ;
+    background-color: #1dbf73;
+    height: 40px;
+}
+video[a]{
+    width: 100%;
+}
+.glass{
+    height: 18vh;
+    display: flex;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.281);
+    backdrop-filter: blur(1px);
+}
+.glass aside{
+    height: 17vh;                               
+}
+.glass aside {
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.glass aside h1{
+    color: white;
+    font-size: 46px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.second{
+    height: 110vh;
+}
+.seca{
+    width: 95%;
+    height: 50vh;
+}
+.secb{
+    width: 95%;
+    height: 50vh;
+}
+.secaa{
+    width: 22%;
+    height: 100%;
+    overflow: hidden;
+}
+.secab{
+    width: 24%;
+    height: 100%;
+    overflow: hidden;
+}
+.secac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.secac h1{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.secac button{
+    width: 150px;
+    height: 50px;
+    background-color: #1dbf73;
+    color: white;
+}
+.secab img{
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease;
+}
+.secaa img{
+    transition: all 2s  ease;
+}
+section[da]{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.secaa:hover section[da]{
+    visibility: hidden;
+}
+.secaa:hover img[cc]{
+    transform: scale(1.15);
+}
+.secab:hover img[cc]{
+    transform: translateX(7px);
+
+}
+.secab:hover section[da]{
+    visibility: hidden;
+}
+.secab h3{
+    padding: 0 0 0 20px;
+} 
+.sere{
+    text-align: center;
+}
+.third{
+    height: 50vh;
+    background-color: #f7f7f7;
+}
+.third header{
+    color: #555555;
+    width: 33%;
+    height: 40vh;
+    text-align: center;
+}
+.third header p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6b6d72;
+}
+.fourth{
+    height: 80vh;
+}
+.faa,.fab{
+    height: 60vh;
+}
+.faa h1{
+    font-size: 25px;
+}
+.faa p{
+    font-size: 19px;
+    font-weight: 400;
+}
+.faa button{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight:700 ;
+    background-color: #1dbf73;
+    height: 40px;
+    margin: 0 0 0 40px;
+}
+.fab p{
+    color: #ffffff;
+    font-weight: 600;
+}
+.fab button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight:700 ;
+    background-color: #1dbf73;
+}
+.fab img{
+    width: 70px;
+    top: 130px;
+    left: 290px;
+}
+.sixth{
+    width: 95%;
+    height: 90vh;
+}
+.aa{
+    top: 50%;
+    left: 47%;
+}.bb{
+    top: 50%;
+    right:48%;
+}
+  .siat p{
+    padding: 40px 0 0 20px;
+    font-size:21px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.siat span{
+    padding: 10px 0 0 20px;
+}
+.sea{
+    height: 50%;
+    background-color: #f7f7f7;
+}
+.seaa,.seab{
+    width: 45%;
+    height: 200px;
+}
+.seb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+}
+.seb p{
+    font-size: larger;
+    color: #6b6d72;
+}
+.seb button{
+    width: 150px;
+    height: 50px;
+    background-color: #1dbf73;
+    color: white;
+}
+.tenth{
+    width:100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(80, 72, 72);
+}
+.nineth{
+    display: flex;
+}
+.teb{
+    width: 45%;
+    height: 10vh;
+    display: flex;
+}
+.tea{
+    height: 10vh;
+}
+.tebb{
+    width: 35%;
+}
+aside[fc]{
+    width: 1400px;
+    height: 45vh;
+    margin-top: 100px;
+}
+.accordion-button:hover{
+    border-left: 5px solid green;
+    
+}.accordion-item{
+   margin-top:3%;
+}
