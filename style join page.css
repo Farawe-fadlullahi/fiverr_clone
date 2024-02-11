@@ -1,0 +1,77 @@
+
+form {
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+form button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 45px;
+    padding: 20px;
+}
+
+form button:hover {
+    background-color: #888;
+}
+
+form img {
+    width: 20px;
+}
+.kk{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: center;
+    width: 80%;
+    height: 80vh;
+}
+.qq {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px gray;
+}
+.nav button{
+    height: 30px;
+}
+
+.ww {
+    background-image: url(modal\ pic.png);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.wwa {
+    margin-top: 120px;
+}
+
+.wwa h1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.wwa p {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.wwa p[a] {
+    width: 180px;
+}
+
+.wwa p[b] {
+    width: 240px;
+}
+
+.wwa p[c] {
+    width: 280px;
+}
+.ff{
+    width: 90%;
+}
