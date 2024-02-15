@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+}
+.input {
+    width: 60%;
+}
+.search_bar {
+    width: 6%;
+    height: 45px;
+}
+
+.search {
+    width: 94%;
+    height: 45px;
+    outline: none;
+    border: 1px solid rgb(134, 10, 123);
+    font-size: large;
+    padding: 0 0 0 10px;
+}
+
+.profile {
+    width: 20%;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.profile h5:hover {
+    color: #1dbf73;
+}
+.profile span:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.507);
+    border-radius: 100%;
+}
+
+.p_down {
+    width: 15%;
+    right: 25px;
+    top:80px;
+    height: 60%;
+    line-height: 18px;
+    display: none;
+    background-color: white;
+    box-shadow:  0px 0px 5px 0px black;
+}
+.p_down p{
+    font-size: larger;
+    font-weight: 450;
+    color: rgb(104, 96, 96);
+}
+.p_down p:hover{
+    color: #17d37b;
+}
+.p_drp:focus-within .p_down{
+    display: block;
+}
+.btna{
+    background-color: #1dbf7300;
+}
+.drpindrp {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(141, 125, 125);
+}
+
+.drpindrp p {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #746e6e;
+}
+
+.drpp:hover {
+    text-decoration: 8px solid green underline;
+    text-underline-offset: 15px;
+}
+
+.drpindrp p:hover {
+    text-decoration: 2px solid green underline;
+}
+
+.drpp {
+    font-family: sans-serif;
+    font-size: large;
+    /* overflow-x: scroll; */
+}
+
+.downaa {
+    width: 95%;
+    height: 90vh;
+    /* display: none; */
+    display: flex;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downbb {
+    width: 95%;
+    height: 90vh;
+    position: absolute;
+    left: 30px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downcc {
+    width: 75%;
+    height: 90vh;
+    position: absolute;
+    left: 280px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downdd {
+    width: 95%;
+    height: 90vh;
+    position: absolute;
+    left: 30px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downee {
+    width: 95%;
+    height: 90vh;
+    position: absolute;
+    left: 30px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downff {
+    width: 75%;
+    height: 90vh;
+    position: absolute;
+    left: 280px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downgg {
+    width: 95%;
+    height: 90vh;
+    position: absolute;
+    left: 30px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downhh {
+    width: 65%;
+    height: 90vh;
+    position: absolute;
+    left: 450px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downii {
+    width: 65%;
+    height: 90vh;
+    position: absolute;
+    left: 450px;
+    visibility: hidden;
+    z-index:6;
+}
+
+.downjj {
+    width: 75%;
+    height: 90vh;
+    position: absolute;
+    left: 280px;
+    visibility: hidden;
+    z-index:6;
+}
+
+section[qq] {
+    width: 25%;
+    /* background-color: aquamarine; */
+    height: 90vh;
+    left: -10px;
+}
+
+section[qq] button {
+    width: 55px;
+    color: #ff62ad;
+    border: 2px solid #ff62ad;
+}
+
+section[qq] p {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #746e6e;
+}
+
+.drpaa:hover .downaa {
+    visibility: visible;
+}
+
+.drpbb:hover .downbb {
+    visibility: visible;
+}
+
+.drpcc:hover .downcc {
+    visibility: visible;
+}
+
+.drpdd:hover .downdd {
+    visibility: visible;
+}
+
+.drpee:hover .downee {
+    visibility: visible;
+}
+
+.drpff:hover .downff {
+    visibility: visible;
+}
+
+.drpgg:hover .downgg {
+    visibility: visible;
+}
+
+.drphh:hover .downhh {
+    visibility: visible;
+}
+
+.drpii:hover .downii {
+    visibility: visible;
+}
+
+.drpjj:hover .downjj {
+    visibility: visible;
+}
+.first{
+    height: 80vh;
+    background-color:#e2dede8f ;
+    display: flex;
+}
+.fa{
+    width: 35%;
+    height: 90%;
+    border: 1px solid gray;
+}
+.fb{
+    width: 50%;
+    height: 90%;
+}
+.faa{
+    width: 100%;
+    height: 47%;
+}
+.faa img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 80px;
+}
+.faa aside{
+    width: 14%;
+    height: 14%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.fab button{
+    color: white;
+    width: 50px ;
+    height: 20px;
+    border: 0;
+    background-color: #ff62ad;
+    border-radius: 20px;
+    padding-left:4px ;
+}
+.vv{
+    width: 95%;
+    height: 40px;
+    border: 0;
+    
+}
+.fac{
+    width: 95%;
+}
+.faca{
+    padding-top: 10px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.fb{
+    text-align: center;
+    justify-content: center;
+}
+.fb button{
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: 0;
+    background-color: #17d37b;
+}
+
+.dddd{
+    display: none;
+}
+
+.nineth{
+    display: flex;
+}
+.naa{
+    width: 20%;
+    height: fit-content;
+}
+.naa p{
+    color: rgb(138, 131, 131);
+}
+.naa p:hover{
+    text-decoration:1px solid rgb(85, 83, 83) underline;
+}
+.tenth{
+    width:100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.tea{
+    height: 10vh;
+}
+
+.teb{
+    width: 45%;
+    height: 10vh;
+    display: flex;
+}
+
+.tebb{
+    width: 35%;
+}
+.seventh{
+    height: 200vh;
+    background-color: #e2dede8f;
+}
+.seva{
+    width: 30%;
+    height: 60vh;
+    text-align: center;
+}
+.seva button{
+    color: white;
+    width: 155px;
+    height: 40px;
+    border: 0;
+    background-color: #17d37b;
+}
+.sevaa{
+    height: 10%;
+}
+.sevab{
+    height: 80%;
+}
+.sevb{
+    /* background-color: crimson; */
+    width: 30%;
+    height: 110vh;
+}
+.sevba{
+    height: 30%;
+    color: black;
+    /* background-color: cornflowerblue; */
+}
+.sevbb{
+    height: 17.5%;
+}
+
+.sevbaa,.sevbba{
+    width: 95%;
+}
+.sevbb aside{
+    top: 45%;
+    left: 5%;
+}
+
+
+
+
+@media (max-width:893px) {
+    .first{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+    .fa,.fb{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .btna{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+@media(max-width:750px){
+    .profile h5{
+        display: none;
+    }
+    .p_down{
+        width: 25%;
+    }
+}
+@media(max-width:900px){
+    
+    .profile span{
+        display: none;
+    }
+}
+@media(max-width:1115px){
+    .p_down{
+        width: 20%;
+    }
+    .seva,.sevb{
+        width: 90%;
+    }
+    .dddd{
+        display: block;
+    }
+    .nineth{
+        display: none;
+    }
+}
+@media(max-width:1115px){
+    .drpindrp{
+        display: none;
+    }
+}
+@media(max-width:900px){
+    .fia{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+    .fiaa{
+        height: 45%;
+        width: 90%;
+    }
+    .profile span{
+        display: none;
+    }
+    .p_down{
+        width: 22%;
+    }
+}
+@media(max-width:824px){
+.tenth{
+    display: block;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.teb{
+    width: 90%;
+}
+}
+@media(max-width:750px){
+    .profile h5{
+        display: none;
+    }
+    .p_down{
+        width: 25%;
+    }
+}
+@media(max-width:815px){
+    .p_down{
+        width: 25%;
+    }
+}
+@media(max-width:723px){
+    .p_down{
+        width: 28%;
+    }
+}
+@media(max-width:645px){
+    .p_down{
+        width: 30%;
+    }
+}
+@media(max-width:601px){
+    .p_down{
+        width: 35%;
+    }
+}
+@media(max-width:600px){
+    .btna{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media(max-width:685px){
+    .teb{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .tebb{
+        margin-top: 40px;
+        width: 50%;
+    }
+    .teb{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .tea{
+        margin: 0 0 0px 37px;
+    }
+}
